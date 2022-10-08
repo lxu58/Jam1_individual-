@@ -1,10 +1,10 @@
-//title = "No Stars!!!";
+title = "No Beans";
 
 description = 
-`click
-change direction
-hold  
-use force field to get pt
+`[click] to move
+
+
+[hold] to shoot
 `;
 
 // Define pixel arts of characters.
@@ -71,9 +71,9 @@ const var_enemy = {
 
 options = {
 	viewSize: { x: GameCanvas.WIDTH, y: GameCanvas.HEIGHT },
-    seed: 10,
-    isPlayingBgm: true,
-	theme: "dark"
+	theme: "pixel",
+	seed: 10,
+	isPlayingBgm: true,
 };
 
 
